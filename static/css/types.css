@@ -1,0 +1,23 @@
+* {
+    font-family: Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    margin: 0px 0px 0px;
+}
+
+h3 {
+    margin: 0px 0px 15px;
+}
+
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 10px;
+    background-color: darkslategray;
+}
