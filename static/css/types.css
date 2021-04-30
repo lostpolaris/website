@@ -8,7 +8,9 @@ h1 {
 }
 
 h2 {
-    margin: 0px 0px 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 h3 {
@@ -19,5 +21,5 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 0 10px;
-    background-color: darkslategray;
+    background-color: var(--main-bg);
 }
