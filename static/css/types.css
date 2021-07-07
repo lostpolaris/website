@@ -4,6 +4,7 @@
 }
 
 h1 {
+    font-size: xx-large;
     color: black;
 }
 
@@ -18,8 +19,25 @@ h3 {
 }
 
 body {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 10px;
-    background-color: var(--main-bg);
+    background-color: #f3f2ef;
+    justify-items: center;
+}
+
+button {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    align-self: flex-end;
+}
+
+button:hover {
+    background-color: black; /* Green */
+    color: white;
 }
